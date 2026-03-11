@@ -1,5 +1,4 @@
 from product import Product
-
 class ProductManager:
 
     def __init__(self):
