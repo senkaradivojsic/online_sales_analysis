@@ -13,3 +13,7 @@ for product in manager.get_products():
 
 total = manager.total_amount()
 print(f"Total amount of all products: {total}")
+manager.remove_product("Smartphone")
+
+for product in manager.get_products():
+    print(product)
